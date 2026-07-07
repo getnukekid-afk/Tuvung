@@ -1,1 +1,484 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Từ Vựng Tiếng Anh Toàn Diện</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .search-box {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: 2px solid #bdc3c7;
+            border-radius: 6px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #2980b9;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f1f2f6;
+        }
+        .no-records {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
 
+<div class="container">
+    <h1>📚 Sổ Tay Từ Vựng Toàn Diện (257 - 623)</h1>
+    <input type="text" id="searchInput" class="search-box" placeholder="Nhập từ tiếng Anh hoặc nghĩa tiếng Việt để tìm kiếm nhanh...">
+    
+    <table id="vocabTable">
+        <thead>
+            <tr>
+                <th style="width: 15%;">STT / Phần</th>
+                <th style="width: 40%;">Từ Tiếng Anh</th>
+                <th style="width: 45%;">Ý Nghĩa Tiếng Việt</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dữ liệu đồng bộ từ ảnh bổ sung -->
+            <tr><td>257</td><td><strong>exhibition</strong></td><td>cuộc triển lãm</td></tr>
+            <tr><td>258</td><td><strong>ceiling</strong></td><td>trần nhà</td></tr>
+            <tr><td>259</td><td><strong>rough</strong></td><td>gian khổ</td></tr>
+            <tr><td>260</td><td><strong>inhospitable nature terrain</strong></td><td>địa hình khắc nghiệt</td></tr>
+            <tr><td>261</td><td><strong>second nature</strong></td><td>bản chất thứ 2</td></tr>
+            <tr><td>262</td><td><strong>undertake</strong></td><td>đảm nhận</td></tr>
+            <tr><td>263</td><td><strong>puzzle out</strong></td><td>tìm ra lời giải</td></tr>
+            <tr><td>264</td><td><strong>estimate</strong></td><td>ước lượng</td></tr>
+            <tr><td>265</td><td><strong>expansion</strong></td><td>rộng lớn / sự mở rộng</td></tr>
+            <tr><td>266</td><td><strong>sustainable</strong></td><td>bền vững</td></tr>
+            <tr><td>267</td><td><strong>environmentally benign</strong></td><td>thân thiện với môi trường</td></tr>
+            <tr><td>268</td><td><strong>eco-credential</strong></td><td>chứng chỉ môi trường</td></tr>
+            <tr><td>269</td><td><strong>emulate</strong></td><td>bắt chước</td></tr>
+            <tr><td>270</td><td><strong>speculate</strong></td><td>suy đoán</td></tr>
+            <tr><td>271</td><td><strong>honourable</strong></td><td>đáng kính</td></tr>
+            <tr><td>272</td><td><strong>division</strong></td><td>phân công</td></tr>
+            <tr><td>273</td><td><strong>utopias</strong></td><td>nơi hoàn hảo</td></tr>
+            <tr><td>274</td><td><strong>dystopias</strong></td><td>nơi xấu xa</td></tr>
+            <tr><td>275</td><td><strong>stand in stark contrast</strong></td><td>trái ngược hoàn toàn</td></tr>
+            <tr><td>276</td><td><strong>deception</strong></td><td>sự lừa dối</td></tr>
+            <tr><td>277</td><td><strong>tyranny</strong></td><td>sự chuyên chế</td></tr>
+            <tr><td>279</td><td><strong>virtual assistants</strong></td><td>trợ lý ảo</td></tr>
+            <tr><td>280</td><td><strong>smart phone</strong></td><td>điện thoại thông minh</td></tr>
+            <tr><td>281</td><td><strong>tablet</strong></td><td>máy tính bảng</td></tr>
+            <tr><td>282</td><td><strong>social media platforms</strong></td><td>nền tảng MXH</td></tr>
+            <tr><td>283</td><td><strong>desktop computer</strong></td><td>máy tính để bàn</td></tr>
+            <tr><td>284</td><td><strong>wearable technology</strong></td><td>công nghệ thiết bị đeo</td></tr>
+            <tr><td>285</td><td><strong>artificial intelligence</strong></td><td>AI</td></tr>
+            <tr><td>286</td><td><strong>messaging app</strong></td><td>ứng dụng nhắn tin</td></tr>
+            <tr><td>287</td><td><strong>smart watches</strong></td><td>đồng hồ thông minh</td></tr>
+            <tr><td>289</td><td><strong>cutting-edge technology</strong></td><td>công nghệ tiên tiến</td></tr>
+            <tr><td>290</td><td><strong>state of the art devices</strong></td><td>thiết bị hiện đại</td></tr>
+            <tr><td>291</td><td><strong>advanced digital tools</strong></td><td>công cụ ICT tiên tiến</td></tr>
+            <tr><td>292</td><td><strong>modern innovative gadgets</strong></td><td>thiết bị hiện đại, sáng tạo</td></tr>
+            <tr><td>293</td><td><strong>userfriendly</strong></td><td>thân thiện với người dùng</td></tr>
+            <tr><td>294</td><td><strong>keep in touch</strong></td><td>giữ liên lạc</td></tr>
+            <tr><td>295</td><td><strong>stay connected</strong></td><td>giữ kết nối</td></tr>
+            <tr><td>296</td><td><strong>communicate instantly</strong></td><td>nói chuyện ngay lập tức</td></tr>
+            <tr><td>297</td><td><strong>keep abreast of the latest information</strong></td><td>theo kịp thông tin mới nhất</td></tr>
+            <tr><td>298</td><td><strong>unwind</strong></td><td>thư giãn</td></tr>
+            <tr><td>299</td><td><strong>access education resources</strong></td><td>tiếp cận nguồn tài nguyên giáo dục</td></tr>
+            <tr><td>300</td><td><strong>support remote learning</strong></td><td>hỗ trợ học từ xa</td></tr>
+            <tr><td>301</td><td><strong>boost productivity</strong></td><td>tăng năng suất</td></tr>
+            <tr><td>302</td><td><strong>manage tasks</strong></td><td>quản lí nhiệm vụ</td></tr>
+            <tr><td>303</td><td><strong>work remotely</strong></td><td>làm việc từ xa</td></tr>
+            <tr><td>304</td><td><strong>make life more convenient</strong></td><td>làm cho cuộc sống thuận tiện hơn</td></tr>
+            <tr><td>305</td><td><strong>automate household task</strong></td><td>tự động hóa việc nhà</td></tr>
+            <tr><td>306</td><td><strong>invade</strong></td><td>xâm phạm</td></tr>
+            <tr><td>307</td><td><strong>leak private information</strong></td><td>rò rỉ thông tin riêng tư</td></tr>
+            <tr><td>308</td><td><strong>cyberbullying</strong></td><td>bạo lực mạng</td></tr>
+            <tr><td>309</td><td><strong>I lean towards</strong></td><td>nghiêng về</td></tr>
+            <tr><td>310</td><td><strong>I'm more drawn to</strong></td><td>bị thu hút nhiều hơn bởi</td></tr>
+            <tr><td>311</td><td><strong>efficient</strong></td><td>hiệu quả</td></tr>
+            <tr><td>312</td><td><strong>convenient</strong></td><td>thuận tiện</td></tr>
+            <tr><td>313</td><td><strong>broaden knowledge</strong></td><td>mở rộng hiểu biết</td></tr>
+            <tr><td>314</td><td><strong>improve quality of life</strong></td><td>cải thiện chất lượng cuộc sống</td></tr>
+            <tr><td>315</td><td><strong>bridge the communication gap</strong></td><td>thu hẹp khoảng cách giao tiếp</td></tr>
+            <tr><td>316</td><td><strong>increase productivity</strong></td><td>tăng năng suất</td></tr>
+            <tr><td>317</td><td><strong>enhance efficiency</strong></td><td>tăng hiệu quả</td></tr>
+            <tr><td>318</td><td><strong>opposition</strong></td><td>sự phản đối</td></tr>
+            <tr><td>319</td><td><strong>traffic-free area</strong></td><td>khu vực không có giao thông</td></tr>
+            <tr><td>320</td><td><strong>middle ages</strong></td><td>thời trung cổ</td></tr>
+            <tr><td>321</td><td><strong>ban</strong></td><td>cấm</td></tr>
+            <tr><td>322</td><td><strong>allow sb to do st</strong></td><td>cho phép ai làm gì</td></tr>
+            <tr><td>323</td><td><strong>exhaust fumes</strong></td><td>khí thải</td></tr>
+            <tr><td>324</td><td><strong>risk</strong></td><td>rủi ro</td></tr>
+            <tr><td>325</td><td><strong>involve</strong></td><td>dính líu</td></tr>
+            <tr><td>326</td><td><strong>take risks</strong></td><td>mạo hiểm</td></tr>
+            <tr><td>327</td><td><strong>risk-taking</strong></td><td>có tính mạo hiểm</td></tr>
+            <tr><td>328</td><td><strong>resistance</strong></td><td>có tính chống đối, kháng cự</td></tr>
+            <tr><td>329</td><td><strong>shopkeeper</strong></td><td>người bán hàng</td></tr>
+            <tr><td>330</td><td><strong>predicted</strong></td><td>đoán</td></tr>
+            <tr><td>331</td><td><strong>carry out</strong></td><td>tiến hành</td></tr>
+            <tr><td>332</td><td><strong>statistics</strong></td><td>số liệu</td></tr>
+            <tr><td>334</td><td><strong>construction</strong></td><td>sự xây dựng</td></tr>
+            <tr><td>335</td><td><strong>constructive feedback</strong></td><td>góp ý mang tính xây dựng</td></tr>
+            <tr><td>336</td><td><strong>maintenance</strong></td><td>sự duy trì, sự bảo trì</td></tr>
+            <tr><td>337</td><td><strong>prosper</strong></td><td>thịnh vượng</td></tr>
+            <tr><td>338</td><td><strong>appliance</strong></td><td>thiết bị = gadgets</td></tr>
+            <tr><td>339</td><td><strong>electrical appliance</strong></td><td>thiết bị điện</td></tr>
+            <tr><td>340</td><td><strong>outskirt</strong></td><td>ngoại ô</td></tr>
+            <tr><td>341</td><td><strong>retail >< wholesale</strong></td><td>bán lẻ >< bán sỉ</td></tr>
+            <tr><td>342</td><td><strong>retail zone</strong></td><td>khu vực bán lẻ</td></tr>
+            <tr><td>343</td><td><strong>out of town</strong></td><td>vùng cách xa thị trấn</td></tr>
+            <tr><td>344</td><td><strong>jam</strong></td><td>tắc nghẽn</td></tr>
+            <tr><td>345</td><td><strong>miraculous</strong></td><td>sự kỳ diệu</td></tr>
+            <tr><td>346</td><td><strong>manufacturer = producer</strong></td><td>nhà sản xuất</td></tr>
+            <tr><td>347</td><td><strong>reservoir</strong></td><td>bể chứa</td></tr>
+            <tr><td>348</td><td><strong>leak</strong></td><td>rò rỉ</td></tr>
+            <tr><td>349</td><td><strong>associate</strong></td><td>liên đới / liên quan / liên hợp</td></tr>
+            <tr><td>350</td><td><strong>vertical</strong></td><td>trục thẳng đứng</td></tr>
+            <tr><td>351</td><td><strong>horizontal</strong></td><td>phương ngang</td></tr>
+            <tr><td>352</td><td><strong>diagonal</strong></td><td>đường chéo</td></tr>
+            <tr><td>353</td><td><strong>toll</strong></td><td>trả phí</td></tr>
+            <tr><td>354</td><td><strong>considerable / significant / substantial</strong></td><td>tăng đáng kể</td></tr>
+            <tr><td>355</td><td><strong>stay stable / stay unchanged / stay constant / stabilize</strong></td><td>giữ ổn định</td></tr>
+            <tr><td>356</td><td><strong>highest point / peak at</strong></td><td>điểm cao nhất / đạt đỉnh tại</td></tr>
+            <tr><td>357</td><td><strong>lowest point / low point of</strong></td><td>điểm thấp nhất</td></tr>
+            <tr><td>358</td><td><strong>populate</strong></td><td>định cư</td></tr>
+            <tr><td>359</td><td><strong>seafarer</strong></td><td>người làm trên biển</td></tr>
+            <tr><td>360</td><td><strong>observe</strong></td><td>quan sát</td></tr>
+            <tr><td>361</td><td><strong>navigational instrument tools</strong></td><td>công cụ định vị</td></tr>
+            <tr><td>362</td><td><strong>voyage</strong></td><td>chuyến đi biển (dài ngày)</td></tr>
+            <tr><td>363</td><td><strong>compass</strong></td><td>la bàn</td></tr>
+            <tr><td>364</td><td><strong>memorize</strong></td><td>học thuộc</td></tr>
+            <tr><td>365</td><td><strong>represent</strong></td><td>đại diện</td></tr>
+            <tr><td>366</td><td><strong>keen</strong></td><td>nhiệt tình</td></tr>
+            <tr><td>367</td><td><strong>ferry terminal</strong></td><td>bến phà</td></tr>
+            <tr><td>368</td><td><strong>turn up</strong></td><td>đến</td></tr>
+            <tr><td>369</td><td><strong>further details</strong></td><td>chi tiết hơn</td></tr>
+            <tr><td>370</td><td><strong>informed</strong></td><td>được thông báo</td></tr>
+            <tr><td>371</td><td><strong>queue</strong></td><td>xếp hàng</td></tr>
+            <tr><td>372</td><td><strong>lounge</strong></td><td>phòng chờ</td></tr>
+            <tr><td>373</td><td><strong>wireless connection</strong></td><td>kết nối không dây</td></tr>
+            <tr><td>374</td><td><strong>upgrade</strong></td><td>nâng cấp</td></tr>
+            <tr><td>375</td><td><strong>previously</strong></td><td>trước đó</td></tr>
+            <tr><td>376</td><td><strong>fastener</strong></td><td>dây an toàn</td></tr>
+            <tr><td>377</td><td><strong>composite</strong></td><td>hỗn hợp</td></tr>
+            <tr><td>378</td><td><strong>light</strong></td><td>nhẹ</td></tr>
+            <tr><td>379</td><td><strong>environmentally friendly</strong></td><td>thân thiện với môi trường</td></tr>
+            <tr><td>380</td><td><strong>refuel</strong></td><td>nạp lại</td></tr>
+            <tr><td>381</td><td><strong>time-consuming</strong></td><td>tốn thời gian</td></tr>
+            <tr><td>382</td><td><strong>revolutionary</strong></td><td>mang tính cách mạng</td></tr>
+            <tr><td>383</td><td><strong>current</strong></td><td>dòng / hiện tại</td></tr>
+            <tr><td>384</td><td><strong>liquid</strong></td><td>chất lỏng</td></tr>
+            <tr><td>385</td><td><strong>provide somebody with</strong></td><td>cung cấp cho ai cái gì</td></tr>
+            <tr><td>386</td><td><strong>accommodate</strong></td><td>chứa / đáp ứng</td></tr>
+            <tr><td>387</td><td><strong>entire</strong></td><td>toàn bộ</td></tr>
+            <tr><td>388</td><td><strong>remote areas</strong></td><td>khu vực vùng sâu vùng xa</td></tr>
+            <tr><td>389</td><td><strong>bee-eater</strong></td><td>chim ăn ong</td></tr>
+            <tr><td>390</td><td><strong>predator</strong></td><td>kẻ săn mồi</td></tr>
+            <tr><td>391</td><td><strong>beehive</strong></td><td>tổ ong</td></tr>
+            <tr><td>392</td><td><strong>breed</strong></td><td>sinh sản / giống</td></tr>
+            <tr><td>393</td><td><strong>canal</strong></td><td>kênh / đào</td></tr>
+            <tr><td>394</td><td><strong>chick</strong></td><td>chim non / gà con</td></tr>
+            <tr><td>395</td><td><strong>concrete</strong></td><td>bê tông</td></tr>
+            <tr><td>396</td><td><strong>flock</strong></td><td>bầy / đàn</td></tr>
+            <tr><td>397</td><td><strong>diet</strong></td><td>chế độ ăn</td></tr>
+            <tr><td>398</td><td><strong>migration</strong></td><td>sự di cư</td></tr>
+            <tr><td>399</td><td><strong>nest</strong></td><td>tổ / (làm) tổ</td></tr>
+            <tr><td>400</td><td><strong>get rid of</strong></td><td>loại bỏ</td></tr>
+            <tr><td>401</td><td><strong>prey</strong></td><td>(v) săn mồi, (n) con mồi</td></tr>
+            <tr><td>402</td><td><strong>stratagem</strong></td><td>chiến lược</td></tr>
+            <tr><td>403</td><td><strong>winter</strong></td><td>(v) trú đông, (n) mùa đông, (adj) thuộc về mùa đông</td></tr>
+            <tr><td>404</td><td><strong>pesticide</strong></td><td>thuốc trừ sâu</td></tr>
+            <tr><td>405</td><td><strong>newly-hatched</strong></td><td>mới nở</td></tr>
+            <tr><td>406</td><td><strong>offspring</strong></td><td>con cháu</td></tr>
+            <tr><td>407</td><td><strong>massive</strong></td><td>rộng lớn / rất lớn (very big)</td></tr>
+            <tr><td>408</td><td><strong>lifespan</strong></td><td>tuổi thọ</td></tr>
+            <tr><td>409</td><td><strong>be located on / situated</strong></td><td>nằm ở / tọa lạc ở</td></tr>
+            <tr><td>411</td><td><strong>next to = be adjacent to</strong></td><td>kế bên</td></tr>
+            <tr><td>412</td><td><strong>on the same side of the street</strong></td><td>cùng phía đường</td></tr>
+            <tr><td>413</td><td><strong>across = opposite</strong></td><td>đối diện</td></tr>
+            <tr><td>414</td><td><strong>at the corner of</strong></td><td>ở góc</td></tr>
+            <tr><td>415</td><td><strong>in the middle / centre</strong></td><td>ở trung tâm</td></tr>
+            <tr><td>416</td><td><strong>at the end of</strong></td><td>ở cuối đường</td></tr>
+            <tr><td>417</td><td><strong>main road</strong></td><td>đường chính</td></tr>
+            <tr><td>418</td><td><strong>side road</strong></td><td>đường phụ</td></tr>
+            <tr><td>419</td><td><strong>footpath</strong></td><td>lối đi bộ</td></tr>
+            <tr><td>420</td><td><strong>pathway</strong></td><td>đường mòn / lối đi</td></tr>
+            <tr><td>421</td><td><strong>bridge</strong></td><td>cây cầu</td></tr>
+            <tr><td>422</td><td><strong>cross road = intersection = junction</strong></td><td>ngã tư</td></tr>
+            <tr><td>423</td><td><strong>roundabout</strong></td><td>vòng xuyến</td></tr>
+            <tr><td>424</td><td><strong>cul-de-sac = dead-end</strong></td><td>ngõ cụt</td></tr>
+            <tr><td>425</td><td><strong>winding road</strong></td><td>đường quanh co</td></tr>
+            <tr><td>426</td><td><strong>highway</strong></td><td>đường cao tốc</td></tr>
+            <tr><td>427</td><td><strong>go straight</strong></td><td>đi thẳng (ahead)</td></tr>
+            <tr><td>428</td><td><strong>continue</strong></td><td>tiếp tục</td></tr>
+            <tr><td>429</td><td><strong>go forward</strong></td><td>đi về phía trước</td></tr>
+            <tr><td>430</td><td><strong>start from</strong></td><td>đi từ</td></tr>
+            <tr><td>431</td><td><strong>head N / S / W / E</strong></td><td>hướng về hướng Bắc/Nam/Tây/Đông</td></tr>
+            <tr><td>432</td><td><strong>turn left / right</strong></td><td>rẽ trái/phải</td></tr>
+            <tr><td>433</td><td><strong>take the first / second left / right</strong></td><td>rẽ trái/phải ở ngã rẽ thứ nhất/hai</td></tr>
+            <tr><td>434</td><td><strong>on the left / right hand</strong></td><td>phía tay trái/phải</td></tr>
+            <tr><td>435</td><td><strong>at the far end of</strong></td><td>ở phía xa</td></tr>
+            <tr><td>436</td><td><strong>nearby</strong></td><td>gần</td></tr>
+            <tr><td>437</td><td><strong>border</strong></td><td>giáp với / biên giới</td></tr>
+            <tr><td>438</td><td><strong>surround</strong></td><td>xung quanh</td></tr>
+            <tr><td>439</td><td><strong>overlook</strong></td><td>nhìn ra</td></tr>
+            <tr><td>440</td><td><strong>run along</strong></td><td>chạy dọc theo</td></tr>
+            <tr><td>441</td><td><strong>branch out</strong></td><td>tách ra</td></tr>
+            <tr><td>442</td><td><strong>extend</strong></td><td>kéo dài</td></tr>
+            <tr><td>443</td><td><strong>landmark</strong></td><td>cột mốc</td></tr>
+            <tr><td>444</td><td><strong>lift</strong></td><td>nâng / thang máy</td></tr>
+            <tr><td>445</td><td><strong>fountains</strong></td><td>đài phun nước</td></tr>
+            <tr><td>446</td><td><strong>Hill</strong></td><td>ngọn đồi</td></tr>
+            <tr><td>447</td><td><strong>pond</strong></td><td>hồ nước</td></tr>
+                        <tr><td>448</td><td><strong>traffic lights</strong></td><td>đèn giao thông</td></tr>
+            <tr><td>449</td><td><strong>entrance</strong></td><td>điểm bắt đầu / lối vào</td></tr>
+            <tr><td>450</td><td><strong>bench</strong></td><td>ghế dài</td></tr>
+            <tr><td>451</td><td><strong>bush</strong></td><td>bụi rậm</td></tr>
+            <tr><td>452</td><td><strong>courtyard</strong></td><td>tòa / sân trong</td></tr>
+            <tr><td>453</td><td><strong>Pet</strong></td><td>thú cưng</td></tr>
+            <tr><td>454</td><td><strong>teacher's pet</strong></td><td>học trò cưng</td></tr>
+            <tr><td>455</td><td><strong>wild animals</strong></td><td>động vật hoang dã</td></tr>
+            <tr><td>456</td><td><strong>farm animals</strong></td><td>động vật nông trại</td></tr>
+            <tr><td>457</td><td><strong>endangered species</strong></td><td>động vật có nguy cơ tuyệt chủng</td></tr>
+            <tr><td>458</td><td><strong>marine creatures</strong></td><td>sinh vật dưới nước</td></tr>
+            <tr><td>459</td><td><strong>loyal companion</strong></td><td>bạn đồng hành trung thành</td></tr>
+            <tr><td>460</td><td><strong>emotionally support</strong></td><td>hỗ trợ về mặt tinh thần</td></tr>
+            <tr><td>461</td><td><strong>keep me company</strong></td><td>bầu bạn với tôi</td></tr>
+            <tr><td>462</td><td><strong>adorable</strong></td><td>đáng yêu</td></tr>
+            <tr><td>463</td><td><strong>relieve stress</strong></td><td>giảm căng thẳng</td></tr>
+            <tr><td>464</td><td><strong>allergic to smith</strong></td><td>dị ứng với (something)</td></tr>
+            <tr><td>465</td><td><strong>make me uneasy</strong></td><td>khiến tôi không thoải mái</td></tr>
+            <tr><td>466</td><td><strong>It drive me crazy / insane</strong></td><td>làm tôi phát điên</td></tr>
+            <tr><td>467</td><td><strong>Aggressive behavior</strong></td><td>hành vi hung hăng</td></tr>
+            <tr><td>468</td><td><strong>spread diseases</strong></td><td>phát bệnh / lây lan dịch bệnh</td></tr>
+            <tr><td>469</td><td><strong>terrifying appearance</strong></td><td>ngoại hình xấu xí / đáng sợ</td></tr>
+            <tr><td>470</td><td><strong>unpredictable</strong></td><td>thất thường</td></tr>
+            <tr><td>471</td><td><strong>cuddle</strong></td><td>ôm ấp / âu yếm</td></tr>
+            <tr><td>472</td><td><strong>walk the dog</strong></td><td>dắt chó đi dạo</td></tr>
+            <tr><td>473</td><td><strong>watch wildlife documentaries</strong></td><td>xem phim tài liệu thiên nhiên hoang dã</td></tr>
+            <tr><td>474</td><td><strong>volunteer at animals shelters</strong></td><td>tình nguyện viên tại trạm cứu hộ động vật</td></tr>
+            <tr><td>475</td><td><strong>feel emotionally connected to sth</strong></td><td>cảm thấy kết nối cảm xúc với cái gì</td></tr>
+            <tr><td>476</td><td><strong>feel more compassionate</strong></td><td>cảm thấy thương xót / trắc ẩn hơn</td></tr>
+            <tr><td>477</td><td><strong>send shivers down my spine</strong></td><td>làm tôi kinh tởm / rợn tóc gáy</td></tr>
+            <tr><td>478</td><td><strong>give me the creeps</strong></td><td>làm tôi nổi da gà / rùng mình</td></tr>
+            <tr><td>479</td><td><strong>hidden gem</strong></td><td>địa điểm thu hút</td></tr>
+            <tr><td>480</td><td><strong>in their natural habit</strong></td><td>ở trong môi trường tự nhiên của chúng (habitat)</td></tr>
+            <tr><td>481</td><td><strong>family-friendly activity</strong></td><td>hoạt động gia đình</td></tr>
+            <tr><td>482</td><td><strong>started</strong></td><td>điểm bắt đầu</td></tr>
+            <tr><td>483</td><td><strong>a peak</strong></td><td>đỉnh</td></tr>
+            <tr><td>484</td><td><strong>a low</strong></td><td>đáy</td></tr>
+            <tr><td>485</td><td><strong>finished</strong></td><td>điểm kết thúc</td></tr>
+            <tr><td>486</td><td><strong>converged</strong></td><td>điểm giao nhau</td></tr>
+            <tr><td>487</td><td><strong>surpassed</strong></td><td>điểm vượt qua</td></tr>
+            <tr><td>488</td><td><strong>fluctuated</strong></td><td>biến động / dao động</td></tr>
+            <tr><td>489</td><td><strong>Plateau</strong></td><td>bình ổn</td></tr>
+            <tr><td>490</td><td><strong>increased / decreased... before dropping / recovering</strong></td><td>tăng / giảm... trước khi quay đầu / phục hồi</td></tr>
+            <tr><td>491</td><td><strong>at a consistent rate / declined gradually</strong></td><td>tăng/giảm đều đặn</td></tr>
+            <tr><td>492</td><td><strong>humpback</strong></td><td>cá voi lưng gù</td></tr>
+            <tr><td>493</td><td><strong>mammal</strong></td><td>động vật có vú</td></tr>
+            <tr><td>494</td><td><strong>longitude</strong></td><td>kinh độ</td></tr>
+            <tr><td>495</td><td><strong>latitude</strong></td><td>vĩ độ</td></tr>
+            <tr><td>496</td><td><strong>spot</strong></td><td>điểm / đốm</td></tr>
+            <tr><td>497</td><td><strong>tail fluke</strong></td><td>đuôi cá voi</td></tr>
+            <tr><td>498</td><td><strong>extensive</strong></td><td>rộng lớn</td></tr>
+            <tr><td>499</td><td><strong>catalogue</strong></td><td>danh mục</td></tr>
+            <tr><td>500</td><td><strong>distinctive</strong></td><td>khác biệt / nổi bật</td></tr>
+            <tr><td>501</td><td><strong>archive</strong></td><td>kho lưu trữ</td></tr>
+            <tr><td>502</td><td><strong>estimate</strong></td><td>ước tính / ước lượng</td></tr>
+            <tr><td>503</td><td><strong>arc</strong></td><td>hình cung</td></tr>
+            <tr><td>504</td><td><strong>detour</strong></td><td>đường vòng</td></tr>
+            <tr><td>505</td><td><strong>krill</strong></td><td>loài giáp xác</td></tr>
+            <tr><td>506</td><td><strong>hostile</strong></td><td>thù địch</td></tr>
+            <tr><td>507</td><td><strong>lightning strike</strong></td><td>sét đánh</td></tr>
+            <tr><td>508</td><td><strong>out at its infancy / in its infancy</strong></td><td>thoát khỏi giai đoạn sơ khai / trong giai đoạn sơ khai</td></tr>
+            <tr><td>509</td><td><strong>put into use</strong></td><td>đưa vào thực tiễn (thus: do đó)</td></tr>
+            <tr><td>510</td><td><strong>elsewhere</strong></td><td>nơi nào khác</td></tr>
+            <tr><td>511</td><td><strong>encase</strong></td><td>bao bọc</td></tr>
+            <tr><td>512</td><td><strong>involved</strong></td><td>bao gồm / dính líu, liên quan</td></tr>
+            <tr><td>513</td><td><strong>hereafter = then</strong></td><td>sau đó</td></tr>
+            <tr><td>514</td><td><strong>superior >< inferior</strong></td><td>vượt trội >< thấp kém</td></tr>
+            <tr><td>515</td><td><strong>carve</strong></td><td>điêu khắc / chạm khắc</td></tr>
+            <tr><td>516</td><td><strong>grind</strong></td><td>nghiền / xay</td></tr>
+            <tr><td>517</td><td><strong>determine</strong></td><td>quyết định</td></tr>
+            <tr><td>518</td><td><strong>mass production</strong></td><td>sản xuất hàng loạt</td></tr>
+            <tr><td>519</td><td><strong>drastical</strong></td><td>mạnh liệt / quyết liệt</td></tr>
+            <tr><td>520</td><td><strong>appetite</strong></td><td>khao khát / thèm ăn</td></tr>
+            <tr><td>521</td><td><strong>soar</strong></td><td>tăng vọt</td></tr>
+            <tr><td>522</td><td><strong>cannonball</strong></td><td>đạn đại bác</td></tr>
+            <tr><td>523</td><td><strong>deposit</strong></td><td>đặt cọc / lớp trầm tích</td></tr>
+            <tr><td>524</td><td><strong>counterpart</strong></td><td>bên tương ứng / cộng sự</td></tr>
+            <tr><td>525</td><td><strong>smudgy</strong></td><td>bẩn</td></tr>
+            <tr><td>526</td><td><strong>campaign</strong></td><td>chiến dịch</td></tr>
+            <tr><td>527</td><td><strong>particularly</strong></td><td>cụ thể / đặc biệt</td></tr>
+            <tr><td>528</td><td><strong>donate</strong></td><td>quyên góp</td></tr>
+            <tr><td>529</td><td><strong>consistency</strong></td><td>sự nhất quán</td></tr>
+            <tr><td>530</td><td><strong>insecurity</strong></td><td>sự bất an</td></tr>
+            <tr><td>531</td><td><strong>conventional</strong></td><td>truyền thống</td></tr>
+            
+            <!-- Dữ liệu lưu trữ cũ -->
+            <tr><td>532</td><td><strong>novelty</strong></td><td>tính mới lạ</td></tr>
+            <tr><td>533</td><td><strong>openness</strong></td><td>sự cởi mở</td></tr>
+            <tr><td>534</td><td><strong>bitchlike</strong></td><td>tính nhỏ nhen</td></tr>
+            <tr><td>535</td><td><strong>implication</strong></td><td>ẩn ý / ngụ ý</td></tr>
+            <tr><td>536</td><td><strong>muddle</strong></td><td>(v/n) lúng túng</td></tr>
+            <tr><td>537</td><td><strong>pick out</strong></td><td>lựa chọn / chọn lọc</td></tr>
+            <tr><td>538</td><td><strong>conduct</strong></td><td>thực hiện</td></tr>
+            <tr><td>539</td><td><strong>suspect</strong></td><td>nghi ngờ</td></tr>
+            <tr><td>540</td><td><strong>acquire</strong></td><td>có được</td></tr>
+            <tr><td>541</td><td><strong>vital</strong></td><td>quan trọng</td></tr>
+            <tr><td>542</td><td><strong>be prone to something</strong></td><td>có xu hướng dễ mắc phải</td></tr>
+            <tr><td>543</td><td><strong>reject</strong></td><td>từ chối</td></tr>
+            <tr><td>Bài đọc 3</td><td><strong>suck</strong></td><td>(v) hút/mút/ tệ (it sucks)</td></tr>
+            <tr><td>Bài đọc 3</td><td><strong>subconsciously</strong></td><td>(adv) tiềm thức (&gt;&lt; consciously: ý thức/nhận thức)</td></tr>
+            <tr><td>Bài đọc 3</td><td><strong>intentionally</strong></td><td>(adv) cố ý (&gt;&lt; unintentionally)</td></tr>
+            <tr><td>Bài đọc 3</td><td><strong>pick up</strong></td><td>(v/phr) học cái gì / đón ai đó / nhặt</td></tr>
+            <tr><td>Bài đọc 3</td><td><strong>rushed</strong></td><td>(adj) vội vã</td></tr>
+            <tr><td>Bài đọc 3</td><td><strong>get rid of</strong></td><td>(phr) loại bỏ</td></tr>
+            <tr><td>Bài đọc 3</td><td><strong>associate</strong></td><td>kết hợp / gắn liền (associate A with B)</td></tr>
+            <tr><td>Bài đọc 3</td><td><strong>split</strong></td><td>(v) tách / chia</td></tr>
+            <tr><td>Bài đọc 3</td><td><strong>come as no surprise</strong></td><td>không bất ngờ</td></tr>
+            <tr><td>Bài đọc 3</td><td><strong>come to mind</strong></td><td>nảy ra trong đầu</td></tr>
+            <tr><td>Bài đọc 3</td><td><strong>put into practice</strong></td><td>đưa vào thực tiễn</td></tr>
+            <tr><td>Phobia</td><td><strong>cure</strong></td><td>(v/n) chữa lành</td></tr>
+            <tr><td>Phobia</td><td><strong>extreme</strong></td><td>(adj) vô cùng / cực đoan</td></tr>
+            <tr><td>Phobia</td><td><strong>phobia</strong></td><td>(n) nỗi ám ảnh</td></tr>
+            <tr><td>Phobia</td><td><strong>sufferer</strong></td><td>(n) người chịu đựng</td></tr>
+            <tr><td>Phobia</td><td><strong>exposure therapy</strong></td><td>(n) liệu pháp tiếp xúc</td></tr>
+            <tr><td>Phobia</td><td><strong>simulate</strong></td><td>(v) mô phỏng</td></tr>
+            <tr><td>Phobia</td><td><strong>seal</strong></td><td>(v) niêm phong</td></tr>
+            <tr><td>Phobia</td><td><strong>therapist</strong></td><td>(n) nhà trị liệu</td></tr>
+            <tr><td>Phobia</td><td><strong>take up</strong></td><td>(phr) bắt đầu một sở thích / chiếm</td></tr>
+            <tr><td>556</td><td><strong>estimate</strong></td><td>ước tính</td></tr>
+            <tr><td>557</td><td><strong>conservative</strong></td><td>thận trọng</td></tr>
+            <tr><td>558</td><td><strong>crop</strong></td><td>cây trồng</td></tr>
+            <tr><td>559</td><td><strong>greenhouse</strong></td><td>nhà kính</td></tr>
+            <tr><td>560</td><td><strong>accommodate</strong></td><td>đáp ứng / chứa được</td></tr>
+            <tr><td>561</td><td><strong>proposal</strong></td><td>đề xuất</td></tr>
+            <tr><td>562</td><td><strong>cutting-edge</strong></td><td>tiên tiến / hiện đại nhất</td></tr>
+            <tr><td>563</td><td><strong>multi-storey</strong></td><td>nhiều tầng</td></tr>
+            <tr><td>564</td><td><strong>situate</strong></td><td>đặt / định vị / tọa lạc</td></tr>
+            <tr><td>565</td><td><strong>sustainable</strong></td><td>bền vững</td></tr>
+            <tr><td>566</td><td><strong>sacrifice</strong></td><td>hy sinh</td></tr>
+            <tr><td>567</td><td><strong>horizontal</strong></td><td>nằm ngang</td></tr>
+            <tr><td>568</td><td><strong>shelter</strong></td><td>nơi trú ẩn / che chở</td></tr>
+            <tr><td>569</td><td><strong>severe</strong></td><td>khắc nghiệt / nghiêm trọng</td></tr>
+            <tr><td>570</td><td><strong>pest</strong></td><td>sâu bệnh</td></tr>
+            <tr><td>571</td><td><strong>pesticide</strong></td><td>thuốc trừ sâu</td></tr>
+            <tr><td>572</td><td><strong>fertiliser</strong></td><td>phân bón</td></tr>
+            <tr><td>573</td><td><strong>infectious</strong></td><td>lây nhiễm</td></tr>
+            <tr><td>574</td><td><strong>fossil fuel</strong></td><td>nhiên liệu hóa thạch</td></tr>
+            <tr><td>575</td><td><strong>drawback</strong></td><td>hạn chế / nhược điểm</td></tr>
+            <tr><td>576</td><td><strong>expose</strong></td><td>phơi bày / tiếp xúc</td></tr>
+            <tr><td>577</td><td><strong>aspiration</strong></td><td>khát vọng / mong muốn</td></tr>
+            <tr><td>578</td><td><strong>variation</strong></td><td>sự biến đổi / biến thể</td></tr>
+            <tr><td>579</td><td><strong>skyscraper</strong></td><td>nhà chọc trời</td></tr>
+            <tr><td>580</td><td><strong>demographic</strong></td><td>nhân khẩu học</td></tr>
+            <tr><td>581</td><td><strong>in vogue</strong></td><td>đang thịnh hành</td></tr>
+            <tr><td>582</td><td><strong>scale up</strong></td><td>mở rộng quy mô</td></tr>
+            <tr><td>583</td><td><strong>drastically</strong></td><td>mạnh mẽ, triệt để</td></tr>
+            <tr><td>584</td><td><strong>proponent</strong></td><td>người ủng hộ</td></tr>
+            <tr><td>585</td><td><strong>despoil</strong></td><td>tàn phá</td></tr>
+            <tr><td>586</td><td><strong>verdant</strong></td><td>xanh tươi</td></tr>
+            <tr><td>587</td><td><strong>semi-arid</strong></td><td>bán khô hạn</td></tr>
+            <tr><td>588</td><td><strong>rigours</strong></td><td>sự khắc nghiệt</td></tr>
+            <tr><td>589</td><td><strong>optimum</strong></td><td>tối ưu</td></tr>
+            <tr><td>590</td><td><strong>incidence</strong></td><td>tỷ lệ xuất hiện / tần suất</td></tr>
+            <tr><td>591</td><td><strong>prohibitively</strong></td><td>ở mức giá cao (về chi phí)</td></tr>
+            <tr><td>592</td><td><strong>likelihood</strong></td><td>khả năng xảy ra</td></tr>
+            <tr><td>593</td><td><strong>detrimental</strong></td><td>có hại</td></tr>
+            <tr><td>594</td><td><strong>laid waste</strong></td><td>bị tàn phá / hoang tàn</td></tr>
+            <tr><td>595</td><td><strong>take their toll</strong></td><td>gây thiệt hại nặng nề / hoang tàn</td></tr>
+            <tr><td>596</td><td><strong>struggle</strong></td><td>vật lộn / đấu tranh</td></tr>
+            <tr><td>597</td><td><strong>concept</strong></td><td>khái niệm</td></tr>
+            <tr><td>598</td><td><strong>distinguish</strong></td><td>phân biệt</td></tr>
+            <tr><td>599</td><td><strong>accurately</strong></td><td>chính xác</td></tr>
+            <tr><td>600</td><td><strong>predict</strong></td><td>dự đoán</td></tr>
+            <tr><td>601</td><td><strong>illustrate</strong></td><td>minh họa</td></tr>
+            <tr><td>602</td><td><strong>phase</strong></td><td>giai đoạn</td></tr>
+            <tr><td>603</td><td><strong>identical</strong></td><td>giống hệt</td></tr>
+            <tr><td>604</td><td><strong>comprise</strong></td><td>bao gồm</td></tr>
+            <tr><td>605</td><td><strong>assess</strong></td><td>đánh giá</td></tr>
+            <tr><td>606</td><td><strong>consistent</strong></td><td>nhất quán</td></tr>
+            <tr><td>607</td><td><strong>confirm</strong></td><td>xác nhận</td></tr>
+            <tr><td>608</td><td><strong>reveal</strong></td><td>tiết lộ</td></tr>
+            <tr><td>609</td><td><strong>expose</strong></td><td>phơi bày</td></tr>
+            <tr><td>610</td><td><strong>repertoire</strong></td><td>kho tàng / vốn có</td></tr>
+            <tr><td>611</td><td><strong>haphazard</strong></td><td>ngẫu nhiên / bừa bãi</td></tr>
+            <tr><td>612</td><td><strong>interchangeable</strong></td><td>có thể thay thế cho nhau</td></tr>
+            <tr><td>613</td><td><strong>cognitive</strong></td><td>thuộc về nhận thức</td></tr>
+            <tr><td>614</td><td><strong>hypothesize</strong></td><td>đưa ra giả thuyết</td></tr>
+            <tr><td>615</td><td><strong>incompetence</strong></td><td>sự kém cỏi / thiếu năng lực</td></tr>
+            <tr><td>616</td><td><strong>overwhelmingly</strong></td><td>áp đảo / vượt trội hoàn toàn</td></tr>
+            <tr><td>617</td><td><strong>entity</strong></td><td>thực thể</td></tr>
+            <tr><td>618</td><td><strong>systematic</strong></td><td>có hệ thống</td></tr>
+            <tr><td>619</td><td><strong>cue</strong></td><td>tín hiệu / gợi ý</td></tr>
+            <tr><td>620</td><td><strong>novel</strong></td><td>mới lạ</td></tr>
+            <tr><td>621</td><td><strong>come down to</strong></td><td>chung quy lại là</td></tr>
+            <tr><td>622</td><td><strong>bound to</strong></td><td>chắc chắn sẽ</td></tr>
+            <tr><td>623</td><td><strong>better than chance</strong></td><td>tốt hơn mức ngẫu nhiên</td></tr>
+        </tbody>
+    </table>
+    <div id="noRecords" class="no-records">Không tìm thấy từ vựng phù hợp.</div>
+</div>
+
+<script>
+    const searchInput = document.getElementById('searchInput');
+    const tableRows = document.querySelectorAll('#vocabTable tbody tr');
+    const noRecords = document.getElementById('noRecords');
+
+    searchInput.addEventListener('input', function() {
+        const filter = searchInput.value.toLowerCase().trim();
+        let hasResults = false;
+
+        tableRows.forEach(row => {
+            const text = row.textContent.toLowerCase();
+            if (text.includes(filter)) {
+                row.style.display = '';
+                hasResults = true;
+            } else {
+                row.style.display = 'none';
+            }
+        });
+
+        if (hasResults) {
+            noRecords.style.display = 'none';
+        } else {
+            noRecords.style.display = 'block';
+        }
+    });
+</script>
+
+</body>
+  </html>
